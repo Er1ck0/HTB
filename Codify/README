@@ -1,0 +1,4 @@
+privesc.py script for brute force password attack aimed for root user.
+  Usage: python3 privesc.py
+
+Keep in mind password lenght could vary and it's up for every administrator.  
