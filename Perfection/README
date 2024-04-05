@@ -1,0 +1,15 @@
+Remote Code Execution through Server Side Template Injection vulnerability.
+
+Python script.
+
+Usage: python3 RCE.py OPTIONS -u url
+
+RCE exploit
+
+options:
+  -h, --help            show this help message and exit
+  --command COMMAND, -c COMMAND
+                        Command to execute on remote server. Use "".
+  --url URL, -u URL     Target URL.
+  --banner {show,no-show}
+                        Show banner
