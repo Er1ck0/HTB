@@ -37,11 +37,11 @@ shellricko = '''
 '''
 
 if __name__ == '__main__':
-        parser = argparse.ArgumentParser(usage="python3 RCE.py OPTIONS -u url", description="RCE exploit")
-        parser.add_argument_group("Requered parameters")
-        parser.add_argument("--command", "-c", help="Command to execute on remote server. Use \"\".")
-        parser.add_argument("--url", "-u", help="Target URL.")
-        parser.add_argument("--banner", help="Show banner", default="show", choices=["show","no-show"])
+        parser = argparse.ArgumentParser(usage='python3 RCE.py OPTIONS -u url', description='RCE exploit')
+        parser.add_argument_group('Requered parameters')
+        parser.add_argument('--command', '-c', help='Command to execute on remote server. Use "ls -al".')
+        parser.add_argument('--url', '-u', help='Target URL.')
+        parser.add_argument('--banner', help='Show banner', default='show', choices=['show','no-show'])
         args = parser.parse_args()
 
         cmd = args.command
