@@ -25,3 +25,5 @@ blind_sqli.py
 
 
 Keep in mind the script does not use threads so it takes some time to enumerate.
+
+There is a video showing the script work, however it is necesary to click in "raw" to see it in the browser.
