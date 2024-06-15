@@ -1,0 +1,27 @@
+Usage:
+blind_sqli.py
+  Remember to copy website laravel and xsrf cookies and token to the script. Otherwise it won't work.
+
+  Infinit loop to enumerate usage machine database.
+
+    1. DB Name.
+    2. DB Tables.
+    3. DB Columns.
+    4. DB Registers.
+    5. Save Injection Extraction.
+    6. Banner.
+    7. Exit. (Or press CTL+C)
+
+    #: 1
+    To extract database name
+    #: 2
+    To extract tables in the database.
+    #: 3
+    To extract columns name in tables.
+    #: 4
+    To extract a specific register from a table. At this point it is recommended to enumerate it manually
+    with tools such as burpsuite or by the website as long as it might cause false positives due to the 
+    amount of traffic.
+
+
+Keep in mind the script does not use threads so it takes some time to enumerate.
