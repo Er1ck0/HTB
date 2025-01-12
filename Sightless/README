@@ -1,3 +1,31 @@
 Audit report / write up for sightless machine from HackTheBox.
 
 An additional resource is availeble in YouTube channel "Sh3llr1ck0" or directly in https://youtu.be/Yx4B-fjep24
+
+
+Help Script Menu.
+
+      usage: python3 XSSFroxlorBypass.py [-h] -u URL -U USERNAME -P PASSWORD --path PATH [--confirm] [--attack] [--banner]
+      
+      XSS Froxlor Bypass (CVE-2024-34070).
+      
+      options:
+        -h, --help            show this help message and exit
+      
+      Required Arguments:
+        -u URL, --url URL     URL to attack.
+        -U USERNAME, --username USERNAME
+                              Username to inject.
+        -P PASSWORD, --password PASSWORD
+                              Password to inject.
+        --path PATH           Filename path where to attack.
+      
+      Optional Arguments:
+        --confirm             Try to confirm if attack has worked
+        --attack              Manage to attack vuln website
+        --banner              Show banner.
+      
+      GitHub Resource: https://github.com/advisories/GHSA-x525-54hf-xr53
+
+
+Script created due to some issues faced at the time of the attack replication usign burp.
